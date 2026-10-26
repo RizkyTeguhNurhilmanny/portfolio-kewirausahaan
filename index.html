@@ -214,9 +214,8 @@
     <!-- TAB NAV -->
     <div class="tab-nav">
       <button class="active" onclick="showTab('profil',this)">Profil</button>
-      <button onclick="showTab('kehadiran',this)">Kehadiran</button>
       <button onclick="showTab('proyek',this)">Proyek Magang</button>
-      <button onclick="showTab('tugas',this)">Tugas & Dokumen</button>
+      <button onclick="showTab('tugas',this)">Dokumen</button>
     </div>
 
     <!-- ── TAB PROFIL ── -->
@@ -237,46 +236,6 @@
       <p class="body">
         Mahasiswa Informatika semester 7 yang memiliki ketertarikan di bidang pengembangan sistem berbasis perangkat keras dan IoT. Selama kegiatan PKL/Magang di <strong>Dinas Komunikasi dan Informatika Kabupaten Tangerang</strong> (Februari – Juli 2026), saya terlibat langsung dalam perancangan dan implementasi sistem keamanan akses ruangan berbasis RFID dengan Solenoid Door Lock menggunakan Arduino Uno — sebagai solusi pengganti kunci fisik konvensional yang lebih aman dan efisien.
       </p>
-    </div>
-
-    <!-- ── TAB KEHADIRAN ── -->
-    <div id="tab-kehadiran" class="tab-panel">
-
-      <p class="section-label">Rekap Kehadiran — Kewirausahaan</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Ptm</th>
-            <th>Topik</th>
-            <th>Status</th>
-            <th>Bukti</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>1</td><td>Pengantar Kewirausahaan</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>2</td><td>Identifikasi Peluang Usaha</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>3</td><td>Business Model Canvas</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>4</td><td>Strategi Pemasaran</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>5</td><td>Analisis Biaya & HPP</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>6</td><td>Pengembangan Produk</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>7</td><td>Review & Persiapan UTS</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr><td>8</td><td>UTS</td><td><span class="badge-green">Hadir</span></td><td><a href="#" class="link-btn">Lihat</a></td></tr>
-          <tr>
-            <td>9–16</td>
-            <td style="color:#9aa0a6;font-style:italic;">Isi sesuai pertemuan kelas</td>
-            <td><span class="badge-green">Hadir</span></td>
-            <td><a href="#" class="link-btn">Lihat</a></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class="drive-note">
-        📁 Folder bukti presensi lengkap (foto absensi / kartu kehadiran):
-        <a href="#" class="link-btn">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Buka Google Drive
-        </a>
-      </div>
     </div>
 
     <!-- ── TAB PROYEK MAGANG ── -->
@@ -340,7 +299,7 @@
     <!-- ── TAB TUGAS & DOKUMEN ── -->
     <div id="tab-tugas" class="tab-panel">
 
-      <p class="section-label">Dokumen Perkuliahan</p>
+      <p class="section-label">Dokumen</p>
 
       <div class="doc-item">
         <div class="doc-icon">
@@ -361,22 +320,8 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
         </div>
         <div>
-          <div class="doc-name">Tugas Business Model Canvas (BMC)</div>
-          <div class="doc-sub">Analisis model bisnis produk SmartDoor RFID</div>
-        </div>
-        <a href="#" class="link-btn">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Buka
-        </a>
-      </div>
-
-      <div class="doc-item">
-        <div class="doc-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-        </div>
-        <div>
-          <div class="doc-name">Lembar Jawaban UTS</div>
-          <div class="doc-sub">Evaluasi tengah semester Mata Kuliah Kewirausahaan</div>
+          <div class="doc-name">Laporan KuKerta</div>
+          <div class="doc-sub">Kuliah Kerja Nyata — UIN Sultan Maulana Hasanuddin Banten, 2026</div>
         </div>
         <a href="#" class="link-btn">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
